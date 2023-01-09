@@ -3,6 +3,25 @@
     padding: 10px 0
     background: none
     border: 0
+    display: block
+    margin: 10px
     &:hover
-        background: $color-orange
+        background: $color-red
         border-radius: 15px
+
+@mixin button-style($background, $color)
+    background: $background
+    color: $color
+
+.btn-laranja
+    @extend .btn
+    @include button-style($color-orange, #FFF)
+
+.btn-roxo
+    @extend .btn
+    @include button-style($color-purple, #FFF)
+
+.btn-amarelo
+    @extend .btn
+    @include button-style($color-yellow, #000)
+    

@@ -1,16 +1,29 @@
-.btn {
+.btn, .btn-amarelo, .btn-roxo, .btn-laranja {
   width: 200px;
   padding: 10px 0;
   background: none;
   border: 0;
+  display: block;
+  margin: 10px;
 }
-.btn:hover {
-  background: orange;
+.btn:hover, .btn-amarelo:hover, .btn-roxo:hover, .btn-laranja:hover {
+  background: red;
   border-radius: 15px;
 }
 
-p {
-  color: orange;
+.btn-laranja {
+  background: orange;
+  color: #FFF;
+}
+
+.btn-roxo {
+  background: purple;
+  color: #FFF;
+}
+
+.btn-amarelo {
+  background: yellow;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
