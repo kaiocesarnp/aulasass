@@ -1,27 +1,27 @@
-@mixin btn
+@mixin button-style($background, $color)
+    background: $background
+    color: $color
+
+.btn
     width:200px
     padding: 10px 0
     background: none
     border: 0
     display: block
     margin: 10px
+
+    &.btn-laranja
+        @include button-style($color-orange, #FFF)
+
+    &.btn-roxo
+        @include button-style($color-purple, #FFF)
+
+    &.btn-amarelo
+        @include button-style($color-yellow, #000)
     &:hover
         background: $color-red
         border-radius: 15px
 
-@mixin button-style($background, $color)
-    background: $background
-    color: $color
 
-.btn-laranja
-    @include btn
-    @include button-style($color-orange, #FFF)
 
-.btn-roxo
-    @include btn
-    @include button-style($color-purple, #FFF)
-
-.btn-amarelo
-    @include btn
-    @include button-style($color-yellow, #000)
     
