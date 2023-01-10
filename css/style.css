@@ -12,7 +12,7 @@
 }
 .btn.btn-laranja:hover {
   background: gray;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .btn.btn-roxo {
   background: purple;
@@ -20,7 +20,7 @@
 }
 .btn.btn-roxo:hover {
   background: #404040;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .btn.btn-amarelo {
   background: yellow;
@@ -28,7 +28,7 @@
 }
 .btn.btn-amarelo:hover {
   background: gray;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
