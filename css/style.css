@@ -1,29 +1,46 @@
-.btn, .btn-amarelo, .btn-roxo, .btn-laranja {
+.btn-laranja {
   width: 200px;
   padding: 10px 0;
   background: none;
   border: 0;
   display: block;
   margin: 10px;
+  background: orange;
+  color: #FFF;
 }
-.btn:hover, .btn-amarelo:hover, .btn-roxo:hover, .btn-laranja:hover {
+.btn-laranja:hover {
   background: red;
   border-radius: 15px;
 }
 
-.btn-laranja {
-  background: orange;
-  color: #FFF;
-}
-
 .btn-roxo {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  display: block;
+  margin: 10px;
   background: purple;
   color: #FFF;
 }
+.btn-roxo:hover {
+  background: red;
+  border-radius: 15px;
+}
 
 .btn-amarelo {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  display: block;
+  margin: 10px;
   background: yellow;
   color: #000;
+}
+.btn-amarelo:hover {
+  background: red;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
