@@ -1,6 +1,9 @@
 @mixin button-style($background, $color)
     background: $background
     color: $color
+    &:hover
+        background: grayscale($background)
+        border-radius: 15px
 
 .btn
     width:200px
@@ -18,9 +21,6 @@
 
     &.btn-amarelo
         @include button-style($color-yellow, #000)
-    &:hover
-        background: $color-red
-        border-radius: 15px
 
 
 
