@@ -10,16 +10,24 @@
   background: orange;
   color: #FFF;
 }
+.btn.btn-laranja:hover {
+  background: gray;
+  border-radius: 15px;
+}
 .btn.btn-roxo {
   background: purple;
   color: #FFF;
+}
+.btn.btn-roxo:hover {
+  background: #404040;
+  border-radius: 15px;
 }
 .btn.btn-amarelo {
   background: yellow;
   color: #000;
 }
-.btn:hover {
-  background: red;
+.btn.btn-amarelo:hover {
+  background: gray;
   border-radius: 15px;
 }
 
